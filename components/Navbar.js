@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <div className="flex py-5 px-10 justify-center w-full items-center">
+    <div className="flex py-5 px-10 justify-center w-full items-center h-fit">
       <Image src={Logo} alt="Logo" className=" h-auto w-12" />
       {/* <div className="flex gap-5">
         <Link href={"/"} className="text-[#C7C7C7]">
